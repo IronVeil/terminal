@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+
+    <!-- metadata -->
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <!-- title -->
+    <title>Terminal</title>
+
+    <!-- scss -->
+    <link rel="stylesheet" href="/src/css/index.min.css">
+
+    <!-- jquery -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.min.js" integrity="sha512-894YE6QWD5I59HgZOGReFYm4dnWc1Qt5NtvYSaNcOP+u1T9qYdvdihz0PPSiiqn/+/3e7Jo4EaG7TubfWGUrMQ==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+</head>
+<body>
+
+    <!-- main console-->
+    <div class="console"></div>
+
+    <!-- input pane -->
+    <div class="input">
+        <input type="text" name="command" id="command" autofocus>
+    </div>
+
+    <!-- env variables -->
+    <script src="/src/js/config.js"></script>
+
+    <!-- parts of page -->
+    <script src="/src/js/console.js"></script>
+    <script src="/src/js/input.js"></script>
+
+    <!-- commands -->
+    <script src="/src/js/commands/about.js"></script>
+</body>
+</html>
