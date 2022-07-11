@@ -8,5 +8,6 @@ function runAbout(command) {
     // command
     } else {
         toConsole("Terminal version " + version)
+        toConsole("Source code hosted on <a href='https://codeberg.org/iv-websites/terminal'>Codeberg</a>")
     }
 }
