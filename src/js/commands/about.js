@@ -1,10 +1,11 @@
-// About command
+// about command
 function runAbout(command) {
 
-    // Input validation
+    // input validation
     if (command.length > 1) {
-        console.log("test")
         callError(102)
+
+    // command
     } else {
         toConsole("Terminal version " + version)
     }
