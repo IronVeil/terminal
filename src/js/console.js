@@ -37,6 +37,11 @@ function runCommand(command) {
             runAbout(command)
             break
 
+        // echo
+        case "echo":
+            runEcho(command)
+            break
+
         // invalid selection
         default:
             callError(100)
@@ -55,7 +60,7 @@ function callError(code, value = "") {
             break
 
         // 101 - not enough arguments
-        case 100:
+        case 101:
             toConsole("not enough arguments", "error")
             break
 
